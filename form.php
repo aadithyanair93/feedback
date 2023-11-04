@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
   <div class="heading"><h1>Feedback Form For Citizen</h1></div>
 
 
-    <form action="/SSIP/form.php" method="post">
+    <form action="form.php" method="post">
     <div class=" mx-3">
           <label for="Name" class="form-label">Enter your Name</label>
           <input type="text" class="form-control" id="name" name="name" aria-describedby="name" required>
